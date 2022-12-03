@@ -1,0 +1,17 @@
+th{
+    border: 2px solid brown;
+}
+td{
+    
+    border:2px solid brown;
+    text-align: center;
+    height: 80px;
+    width: 80px;
+}
+table{
+    border-collapse: collapse;
+    /* border-spacing: 0px; */
+}
+tr:nth-child(2n+1){
+    background-color: yellowgreen;
+}
