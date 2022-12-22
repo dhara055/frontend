@@ -1,0 +1,25 @@
+th{
+    background-color: #427fef;
+}
+tr:nth-child(2n) {
+background-color:#eef7ff
+}
+::selection{
+    border: #c4dcf3;
+}
+table{
+    border-collapse: collapse;
+    margin: 20px;
+    
+    /* border-spacing: 0px; */
+}
+/* th{
+    width: 200px;
+    height: 80px;
+} */
+th,
+td{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}

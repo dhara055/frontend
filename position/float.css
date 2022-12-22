@@ -1,0 +1,15 @@
+.clearfix ::after{
+    content:'';
+    display:block;
+    clear:both;
+    /* position: relative;margin: 20px; */
+}
+.img1{
+    float:left;
+    /* position: fixed; */
+}
+img{
+    float:right;
+    margin: 20px;
+}
+

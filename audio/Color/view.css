@@ -1,0 +1,36 @@
+.box{
+    height: 600px;
+    width: 50%;
+    /* background-color: seashell; */
+    border: 2px solid red;
+    margin: 20PX;
+}
+.section1{
+    height: 50%;
+    background-color: yellow;
+}
+.section2{
+    height: 50%;
+    background-color: orange;
+}
+p{
+    margin: 0px;
+}
+
+.box1{
+    height: 600px;
+    width: 50%;
+    /* background-color: seashell; */
+    border: 2px solid red;
+    margin: 20PX;
+}
+.section3{
+    height: 50%;
+    width: 50%;
+    background-color: yellow;
+}
+.section4{
+    height: 50%;
+    width: 75%;
+    background-color: orange;
+}

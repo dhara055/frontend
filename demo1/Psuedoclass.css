@@ -1,0 +1,14 @@
+article :first-child{
+    color: darkblue;
+    background-color: rosybrown;
+}
+article :first-of-type{
+    color: chartreuse;
+}
+section::first-line{
+    color: seagreen;
+}
+
+/* ::selection{
+    color: red;
+} */

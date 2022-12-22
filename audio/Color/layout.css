@@ -1,0 +1,14 @@
+.box{
+    background-color: yellowgreen;
+    height: 200px;
+    width: 200px;
+    overflow: scroll;
+    border:2px solid red;
+    box-sizing: border-box;
+    /* overflow: auto, hidden, visible; */
+    /* overflow: visible; default */
+}
+p{
+    font-size:1em;
+    width: 200px;
+}

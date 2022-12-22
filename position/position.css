@@ -1,0 +1,27 @@
+.boxes{
+    border: 2px solid black;
+    position: relative;
+}
+.box{
+    width: 5rem;
+    height: 5rem;
+}
+.box-one{
+    background-color: tomato;
+}
+.box-two{
+    background-color: yellow;
+    position: relative;
+    z-index: -1;
+    right:20px;
+    bottom: 30px;
+}
+.box-three{
+    background-color: red;
+}
+.box-four{
+    background-color:blue;
+    position:absolute;
+    top:20px;
+    width:3rem;
+}

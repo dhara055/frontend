@@ -1,0 +1,28 @@
+a[target=_blank]{
+color:blueviolet;
+background-color: beige;
+}
+a[href="https://www.google.com"]{
+    color: blue ;
+    background-color: beige;
+}
+#check{
+    color: aqua;
+    background-color: brown;
+}
+.classdemo{
+    color: yellowgreen;
+    background-color: darkblue;
+}
+#product > p{
+    color: tomato;
+    background-color: aliceblue;
+}
+#second + p{
+    color: blue;
+    background-color: yellow;
+}
+#third ~ p{
+    color: blueviolet;
+    background-color: lavenderblush;
+}
