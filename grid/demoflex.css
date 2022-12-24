@@ -1,0 +1,31 @@
+.container{
+    height: 75rem;
+    width:75rem;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    height: 100%;
+    width:50%;
+    border: 2px solid greenyellow;
+}
+.leftbox{
+    /* background-image: url("../images/parrot.jpg");
+    background-repeat: no-repeat; */
+    height: 50%;
+    width:100%;
+    border:2px solid maroon;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.right{
+    height: 100%;
+    width:50%;
+    border: 2px solid green;
+    /* background-image: url("../images/parrot.jpg");
+    background-repeat: no-repeat; */
+}

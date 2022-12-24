@@ -1,0 +1,19 @@
+.container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 200px);
+    height:100%;
+    grid-gap: 5px;
+   
+}
+img{
+    height:100%;
+    width:100%;
+    border: 2px solid lightpink;
+}
+.image2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}

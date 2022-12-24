@@ -1,0 +1,31 @@
+.container{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 50px 200px 50px;
+    color: white;
+    grid-gap: 5px;
+    text-align: center;
+   
+}
+.Header{
+    background-color: blue;
+    /* grid-column-start: 1; */
+    grid-column-start: 2;
+    /* grid-column-end: 3; */
+    grid-column-end: -1;
+}
+.Menu{
+    background-color: blueviolet;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.Content{
+    background-color: brown;
+    grid-row-start: 2;
+    grid-row-end: -1;
+}
+.Footer{
+    background-color: green;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
