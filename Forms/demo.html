@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./demo.css">
+</head>
+<body>
+    <form>
+        <div>
+            <label for="user name">User Name:</label>
+        <!-- <p>User Name</p> -->
+        <input id="user name" type="text" placeholder="Enter your name" maxlength="10" autofocus/>
+        </div>
+        <div>
+        <!-- <p>Email</p> -->
+        <label for="Email">Email:</label>
+        <input id="Email" type="Email" placeholder="Enter your Email" maxlength="20"/>
+        </div>
+        <div>
+            <!-- <p>Email</p> -->
+            <label for="Email">Email:</label>
+            <input id="Email" type="Email" value="dhara55@gmail.com" readonly/>
+            </div>
+        <div>
+            <textarea cols="30" rows="4"></textarea>
+        </div>
+        <button type="submit">SUBMIT</button>
+        <button type="reset">RESET</button>
+        <!-- <input type="text" placeholder="Select Movie" list="Movie"> -->
+        <select id="Movie">
+          <option >Vikram</option>
+          <option >Varisu</option>
+          <option >Thunivu</option>
+          <option >Kantara</option>
+        </select>
+        <select multiple id="Movie">
+          <option >Vikram</option>
+          <option >Varisu</option>
+          <option >Thunivu</option>
+          <option >Kantara</option>
+        </select>
+        <select multiple id="Movie">
+        <optgroup label="Recent Movies">
+          <option >Vikram</option>
+          <option >Varisu</option>
+          <option >Thunivu</option>
+          <option >Kantara</option>
+        </optgroup>
+        <optgroup label="Old Movies">
+          <option >Vikram</option>
+          <option >Varisu</option>
+          <option >Thunivu</option>
+          <option >Kantara</option>
+        </optgroup>
+        </select>
+        <input type="checkbox" id ="name">
+        <label for="name">Name</label>
+        <input type="checkbox" id ="name" checked disabled>
+        <label for="name">Name</label>
+        <input type="radio" name="q1" id ="name">
+        <label for="name">Name</label>
+        <input type="radio" name="q1" id ="lname">
+        <label for="lname">last Name</label>
+        <!-- input{
+            type =text, date, datetime-local, file, image, hidden, month, password, range, search, time, url,week
+        } -->
+        <!-- name & value is very imp -->
+    </form>
+    <!-- <input type="text"/> -->
+    <!-- <input type="email"/> -->
+    <!-- <input type="number"> -->
+</body>
+</html>
